@@ -267,7 +267,7 @@ a.sizeIMG:hover, a.sizeIMG:active {
 		color 0.8s ease;
 }
 
-/* einde van de test voor de table */																																																															#footer{position:absolute;bottom:0px;width:100%;text-align:center;color:transparent;}#footer:hover{color:#000;}
+/* einde van de test voor de table */																																																															#footer{position:fixed;bottom:0px;width:100%;text-align:center;color:transparent;}#footer:hover{color:#000;}
 
 /* Sidebar */
 .sidebar {
