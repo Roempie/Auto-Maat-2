@@ -1,26 +1,27 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
 
 body {
-	background-color: rgba(229, 229, 229, 0.9);
-	margin: 0;
+	margin:  0;
 	padding: 0;
+	background-color: rgba(  229, 229, 229, 0.9  );
 }
 
 
 /* Header */
 .logo {
-	height: 45px;
+	height:     45px;
 	margin-top: 10px;
 }
 
 .nav ul {
-	background-color: #686868;
-	position: relative;
-	width: auto;
+	position:      relative;
+	width:         auto;
+	top:           -16px;
 	margin-bottom: 0px;
-	top: -16px;
-	text-align: left;
-	list-style: none;
+	text-align:    left;
+
+	background-color: #686868;
+	list-style:       none;
 }
 
 .nav ul li {
@@ -28,94 +29,112 @@ body {
 }
 
 .nav ul li a {
-	padding-top: 23px;
-	padding-right: 23px;
-	padding-bottom: 23px;
+	padding-top:     23px;
+	padding-right:   23px;
+	padding-bottom:  23px;
+
+	font-family:     'Open Sans Condensed', sans-serif;
+	font-size:       24px;
 	text-decoration: none;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 24px;
-	color: #000;
+	color:           #000;
 
-	text-shadow: 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em rgba(0, 0, 0, 0);
+	text-shadow:
+		0 0 0.0em rgba(0, 0, 0, 0),
+		0 0 0.0em rgba(0, 0, 0, 0),
+		0 0 0.0em rgba(0, 0, 0, 0);
 
-	transition: color .9s ease-in-out;
-    -moz-transition: color .9s ease-in-out;
-    -webkit-transition: color .9s ease-in-out;
-	transition: text-shadow .3s ease-in-out;
-    -moz-transition: text-shadow .3s ease-in-out;
-    -webkit-transition: text-shadow .3s ease-in-out;
+	transition:					 	 color .9s ease-in-out;
+    -moz-transition:     color .9s ease-in-out;
+    -webkit-transition:  color .9s ease-in-out;
+
+	transition: 					 text-shadow .3s ease-in-out;
+    -moz-transition:     text-shadow .3s ease-in-out;
+    -webkit-transition:  text-shadow .3s ease-in-out;
 }
 
 .nav ul li a:hover {
 	color: #33FFFF;
-	text-shadow: 0 0 0.0em #33CCFF, 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em #33CCFF;
+
+	text-shadow:
+		0 0 0.0em #33CCFF,
+		0 0 0.0em rgba(0, 0, 0, 0),
+		0 0 0.0em #33CCFF;
 }
 /* einde header */
 
 
 /* homeknoppen */
 #gezin a, #eco a, #premium a, #sport a {
-	text-align: center;
+	line-height: 2000%;
+	width:       24vw;
+	height:      40vh;
+	display:     block;
+	float:       left;
+	text-align:  center;
+
+	background-size:     30%, 30%;
+	background-position: 50%  30%;
+	background-color:    rgba(  229, 229, 229, 0.9  );
+
 	font-family: 'Segoe UI', sans-serif;
 	font-weight: lighter;
-	font-size: 21px;
+	font-size:   21px;
+
 	text-decoration: none;
-	color: black;
-	line-height: 2000%;
-	width: 24vw;
-	height: 40vh;
-	display: block;
-	float: left;
-	transition: background-color 0.5s ease;
-	background-size: 30%,30%;
-	background-position: 50% 30%;
-	background-color: rgba(229, 229, 229, 0.9);
+	color:           #000;
+
+	transition:
+		background-color 0.5s ease;
+
 }
 
-#gezin a:hover, #eco a:hover, #premium a:hover, #sport a:hover {
+#premium a:hover, #eco a:hover, #sport a:hover, #gezin a:hover {
 	background-color: #686868;
-}
-
-#gezin a {
-	background: url("./swag4.png") no-repeat 0 100%;
-}
-
-#eco a {
-	background: url("./swag2.png") no-repeat 0 100%;
 }
 
 #premium a {
 	background: url("./swag1.png") no-repeat 0 100%;
 }
-
+#eco a {
+	background: url("./swag2.png") no-repeat 0 100%;
+}
 #sport a {
 	background: url("./swag3.png") no-repeat 0 100%;
 }
-
+#gezin a {
+	background: url("./swag4.png") no-repeat 0 100%;
+}
 /* einde homeknoppen */
 
 /* Content */
 .content {
-	background-color: white;
-	width: auto;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	padding-top: 180px;
-	padding-left: 0px;
 	position: relative;
-  top: -16px;
+
+	margin-left:    0px;
+	margin-top:     0px;
+	margin-right:   0px;
+
+	padding-left:   0px;
+	padding-top:  180px;
+
+	width: auto;
+  top:  -16px;
+
+	background-color: #FFF;
 }
 
 .content p {
-	margin: 0px;
-	margin-top: 10px;
-	padding-top: 10px;
+	margin:           0px;
+	margin-top:      10px;
+
+	padding-top:     10px;
 	padding-bottom: 180px;
+
 	font-family: 'Segoe UI', sans-serif;
 	font-weight: lighter;
-	font-size: 19px;
-	background-color: white;
+	font-size:   19px;
+
+	background-color: #FFF;
 }
 
 /* einde content */
@@ -123,42 +142,52 @@ body {
 /* Prijsknop */
 .prijsknop {
 	padding-top: -5px;
-	font-family: sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 }
 
 #links a {
-	width: 49.6%;
-	height: 92.2vh;
-	float: left;
-	border-right: .5vw solid black;
-	text-align: center;
+	width:       49.6%;
+	height:      92.2vh;
+	float:       left;
+
 	line-height: 85vh;
-	text-decoration: none;
-	color: black;
-	margin-top: -16px;
-	transition: background-color 0.5s ease;
-	background: url("./eurostapel.png") no-repeat 0 100%;
+	margin-top:  -16px;
+	text-align:  center;
+
+	background:          url("./eurostapel.png") no-repeat 0 100%;
 	background-position: 51.1% 35%;
-	background-size: 100px 100px;
+	background-size:     100px 100px;
+
+	color:           #000;
+	text-decoration: none;
+	border-right:    .5vw solid #000;
+
+	transition:
+		background-color 0.5s ease;
 }
 #links a:hover {
 	background-color: #A8A8A8;
 }
 
 #rechts a {
-	width: 49.9%;
-	height: 92.2vh;
 	display: block;
-	float: right;
-	text-align: center;
-	text-decoration: none;
-	color: black;
+	width:   49.9%;
+	height:  92.2vh;
+	float:   right;
+
 	line-height: 5000%;
-	margin-top: -16px;
-	transition: background-color 0.5s ease;
-	background: url("./geldzak.png") no-repeat 0 100%;
+	margin-top:  -16px;
+	text-align:  center;
+
+	background:          url("./geldzak.png") no-repeat 0 100%;
 	background-position: 51.1% 32%;
-	background-size: 100px 140px;
+	background-size:     100px 140px;
+
+	text-decoration: none;
+	color:           #000;
+
+	transition:
+		background-color 0.5s ease;
 }
 #rechts a:hover {
 	background-color: #A8A8A8;
@@ -167,18 +196,20 @@ body {
 
 /* onderdeel van de header */
 .nav ul {
-	list-style: none;
+	width:      auto;
 	text-align: left;
-	background-color: #4C4B4B;
-	margin-bottom: 0px;
-	width: auto;
-	margin-left: 0px;
-	margin-right: 0px;
 
+	margin-left:   0px;
+	margin-right:  0px;
+	margin-bottom: 0px;
+
+	background-color: #4C4B4B;
+	list-style:       none;
 }
 .nav ul li {
 	display: inline;
-	padding: 0px;
+
+	padding:      0px;
 	line-height: 70px;
 }
 /* einde onderdeel van de header */
@@ -186,20 +217,18 @@ body {
 
 /* test voor de tables */
 .tableB table {
-	border-collapse: collapse;
-	border: 1px solid rgba(229, 229, 229, 0.9);
-	margin-top: -16px;
-	background-color: white;
-}
+	margin-top:       -16px;
 
-/*
-#td1, #td2, #td3, #td4, #td5, #td6, #td7, #td8, #td9, #td10, #td11, #td11, #td12 {
-	border-right: 1px solid white; padding: 0px;
+	border:           1px solid rgba(  229, 229, 229, 0.9  );
+	border-collapse:  collapse;
+
+	background-color: #FFF;
 }
-*/
 
 .auto_td {
-	border-right: 1px solid white; padding: 0px;
+	padding: 0px;
+
+	border-right: 1px solid #FFF;
 }
 
 
@@ -208,28 +237,33 @@ a.sizeIMG:hover, a.sizeIMG:active {
 }
 
 #auto {
-	text-align: center;
-	width: 24vw;
-	height: 38,5vh;
 	display: inline-block;
-	background-color: white;
-	float: left;
+	width:   24vw;
+	height:  38.5vh;
+	float:   left;
+
+	background-color: #FFF;
+	text-align:       center;
 }
 
 #auto a {
-	color: white;
-	text-decoration: none;
+	padding: 0px;
+	margin:  0px;
+
 	font-family: 'Segoe UI', sans-serif;
 	font-weight: lighter;
-	font-size: 21px;
-	padding: 0px;
-	margin: 0px;
+	font-size:   21px;
+
+	text-decoration: none;
+	color:           #FFF;
 }
 
 #auto a:hover {
-	background-color: white;
-	transition: color 0.8s ease;
-	color: black;
+	background-color: #FFF;
+	color:            #000;
+
+	transition:
+		color 0.8s ease;
 }
 
 /* einde van de test voor de tables */
@@ -237,49 +271,56 @@ a.sizeIMG:hover, a.sizeIMG:active {
 /* Sidebar */
 .sidebar {
 	position: absolute;
-	top: 59px;
-	bottom: 0;
-	left: 0;
-	width: 13%;
+	width:    13%;
+
+	left:   0px;
+	top:   59px;
+	bottom: 0px;
 }
 
 .sidebar a {
+	margin-bottom:   -4px;
+
 	text-decoration: none;
-	margin-bottom: -4px;
 }
 
 .sidebar a p {
-	background-color: white;
-	color: black;
-	padding-left: 20px;
+	padding-left:   20px;
+	padding-top:    15px;
 	padding-bottom: 15px;
-	padding-top: 15px;
+
+	background-color: #FFF;
+	color:            #000;
 }
 
 /* einde sidebar */
 
 .auto2 {
-  text-align: center;
-  background-color: rgba(229, 229, 229, 0.9);
 	padding-bottom: 10px;
+
+  background-color: rgba(  229, 229, 229, 0.9  );
+	text-align:       center;
 }
 
 .auto2 a {
-  text-decoration: none;
-  color: black;
-	font-size: 18px;
+  color:           #000;
+	font-size:       18px;
+	text-decoration: none;
 }
 
 .tableB td, tr {
 	box-sizing: border-box;
+
+	border:          1px solid #000;
 	border-collapse: collapse;
-	border: 1px solid black;
 }
 
 .dropdown {
-  height: 0;
+  height:   0px;
   overflow: hidden;
-  transition: all 0.3s linear 1s;
+
+  transition:
+		all 0.3s linear 1s;
 }
 
 a:focus ~ .dropdown {
