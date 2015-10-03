@@ -219,6 +219,7 @@ body {
 /* test voor de table */
 .tableB table {
 	margin-top:       -16px;
+	width: 100%;
 
 	border:           1px solid rgba(  229, 229, 229, 0.9  );
 	border-collapse:  collapse;
