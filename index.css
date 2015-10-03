@@ -36,7 +36,7 @@ body {
 	font-size: 24px;
 	color: #000;
 
-	text-shadow: 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0);
+	text-shadow: 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em rgba(0, 0, 0, 0);
 
 	transition: color .9s ease-in-out;
     -moz-transition: color .9s ease-in-out;
@@ -48,7 +48,7 @@ body {
 
 .nav ul li a:hover {
 	color: #33FFFF;
-	text-shadow: 0 0 0.0em #33CCFF, 0 0 0.0em rgba(0, 0, 0, 0.0), 0 0 0.0em #33CCFF;
+	text-shadow: 0 0 0.0em #33CCFF, 0 0 0.0em rgba(0, 0, 0, 0), 0 0 0.0em #33CCFF;
 }
 /* einde header */
 
@@ -69,7 +69,7 @@ body {
 	transition: background-color 0.5s ease;
 	background-size: 30%,30%;
 	background-position: 50% 30%;
-	background-color: rgba(229,229,229,0.9);
+	background-color: rgba(229, 229, 229, 0.9);
 }
 
 #gezin a:hover, #eco a:hover, #premium a:hover, #sport a:hover {
@@ -77,19 +77,19 @@ body {
 }
 
 #gezin a {
-	background: url(./swag4.png) no-repeat 0 100%;
+	background: url("./swag4.png") no-repeat 0 100%;
 }
 
 #eco a {
-	background: url(./swag2.png) no-repeat 0 100%;
+	background: url("./swag2.png") no-repeat 0 100%;
 }
 
 #premium a {
-	background: url(./swag1.png) no-repeat 0 100%;
+	background: url("./swag1.png") no-repeat 0 100%;
 }
 
 #sport a {
-	background: url(./swag3.png) no-repeat 0 100%;
+	background: url("./swag3.png") no-repeat 0 100%;
 }
 
 /* einde homeknoppen */
@@ -137,7 +137,7 @@ body {
 	color: black;
 	margin-top: -16px;
 	transition: background-color 0.5s ease;
-	background: url(./eurostapel.png) no-repeat 0 100%;
+	background: url("./eurostapel.png") no-repeat 0 100%;
 	background-position: 51.1% 35%;
 	background-size: 100px 100px;
 }
@@ -156,7 +156,7 @@ body {
 	line-height: 5000%;
 	margin-top: -16px;
 	transition: background-color 0.5s ease;
-	background: url(./geldzak.png) no-repeat 0 100%;
+	background: url("./geldzak.png") no-repeat 0 100%;
 	background-position: 51.1% 32%;
 	background-size: 100px 140px;
 }
@@ -187,7 +187,7 @@ body {
 /* test voor de tables */
 .tableB table {
 	border-collapse: collapse;
-	border: 1px solid rgba(229,229,229,0.9);
+	border: 1px solid rgba(229, 229, 229, 0.9);
 	margin-top: -16px;
 	background-color: white;
 }
