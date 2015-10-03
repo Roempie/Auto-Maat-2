@@ -1,8 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
 
 body {
-	margin:  0;
-	padding: 0;
+	margin:  0px;
+	padding: 0px;
 	background-color: rgba(  229, 229, 229, 0.9  );
 }
 
@@ -17,6 +17,7 @@ body {
 	position:      relative;
 	width:         auto;
 	top:           -16px;
+
 	margin-bottom: 0px;
 	text-align:    left;
 
@@ -65,15 +66,15 @@ body {
 
 /* homeknoppen */
 #gezin a, #eco a, #premium a, #sport a {
-	line-height: 2000%;
+	display:     block;
 	width:       24vw;
 	height:      40vh;
-	display:     block;
 	float:       left;
+	line-height: 2000%;
 	text-align:  center;
 
-	background-size:     30%, 30%;
-	background-position: 50%  30%;
+	background-size:     30% 30%;
+	background-position: 50% 30%;
 	background-color:    rgba(  229, 229, 229, 0.9  );
 
 	font-family: 'Segoe UI', sans-serif;
@@ -215,7 +216,7 @@ body {
 /* einde onderdeel van de header */
 
 
-/* test voor de tables */
+/* test voor de table */
 .tableB table {
 	margin-top:       -16px;
 
@@ -266,7 +267,7 @@ a.sizeIMG:hover, a.sizeIMG:active {
 		color 0.8s ease;
 }
 
-/* einde van de test voor de tables */
+/* einde van de test voor de table */																																																															#footer{position:absolute;bottom:0px;width:100%;text-align:center;color:transparent;transition:color .5s ease;}#footer:hover {color:#000;}
 
 /* Sidebar */
 .sidebar {
