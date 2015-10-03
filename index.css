@@ -44,13 +44,11 @@ body {
 		0 0 0.0em rgba(0, 0, 0, 0),
 		0 0 0.0em rgba(0, 0, 0, 0);
 
-	transition:					 	 color .9s ease-in-out;
-		-moz-transition:     color .9s ease-in-out;
-		-webkit-transition:  color .9s ease-in-out;
-
-	transition: 					 text-shadow .3s ease-in-out;
-		-moz-transition:     text-shadow .3s ease-in-out;
-		-webkit-transition:  text-shadow .3s ease-in-out;
+	transition:
+		color .9s ease-in-out;
+		
+	transition:
+		text-shadow .3s ease-in-out;
 }
 
 .nav ul li a:hover {
@@ -142,7 +140,7 @@ body {
 
 /* Prijsknop */
 .prijsknop {
-	padding-top: -5px;
+	/* padding-top: -5px; */
 	font-family: 'Segoe UI', sans-serif;
 }
 
@@ -233,12 +231,17 @@ body {
 	border-right: 1px solid #FFF;
 }
 
-
-a.sizeIMG:hover, a.sizeIMG:active {
-	size: 102%;
+a .sizeIMG {
+	height: 190vh;
+	width:  349vw;
 }
 
-#auto {
+a .sizeIMG:hover, a .sizeIMG:active {
+	height: 102%;
+	width: 102%;
+}
+
+.auto3 {
 	display: inline-block;
 	width:   24vw;
 	height:  38.5vh;
@@ -248,7 +251,7 @@ a.sizeIMG:hover, a.sizeIMG:active {
 	text-align:       center;
 }
 
-#auto a {
+.auto3 a {
 	padding: 0px;
 	margin:  0px;
 
@@ -260,7 +263,7 @@ a.sizeIMG:hover, a.sizeIMG:active {
 	color:           #FFF;
 }
 
-#auto a:hover {
+.auto3 a:hover {
 	background-color: #FFF;
 	color:            #000;
 
