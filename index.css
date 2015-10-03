@@ -1,0 +1,287 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
+
+body {
+	background-color: rgba(229, 229, 229, 0.9);
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Header */
+.logo {
+	height: 45px;
+	margin-top: 10px;
+}
+
+.nav ul {
+	background-color: #686868;
+	position: relative;
+	width: auto;
+	margin-bottom: 0px;
+	top: -16px;
+	text-align: left;
+	list-style: none;
+}
+
+.nav ul li {
+	display: inline;
+}
+
+.nav ul li a {
+	padding-top: 23px;
+	padding-right: 23px;
+	padding-bottom: 23px;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	color: #000;
+
+	text-shadow: 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0);
+
+	transition: color .9s ease-in-out;
+    -moz-transition: color .9s ease-in-out;
+    -webkit-transition: color .9s ease-in-out;
+	transition: text-shadow .3s ease-in-out;
+    -moz-transition: text-shadow .3s ease-in-out;
+    -webkit-transition: text-shadow .3s ease-in-out;
+}
+
+.nav ul li a:hover {
+	color: #33FFFF;
+	text-shadow: 0 0 0.0em #33CCFF, 0 0 0.0em rgba(0, 0, 0, 0.0), 0 0 0.0em #33CCFF;
+}
+/* einde header */
+
+
+/* homeknoppen */
+#gezin a, #eco a, #premium a, #sport a {
+	text-align: center;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: lighter;
+	font-size: 21px;
+	text-decoration: none;
+	color: black;
+	line-height: 2000%;
+	width: 24vw;
+	height: 40vh;
+	display: block;
+	float: left;
+	transition: background-color 0.5s ease;
+	background-size: 30%,30%;
+	background-position: 50% 30%;
+	background-color: rgba(229,229,229,0.9);
+}
+
+#gezin a:hover, #eco a:hover, #premium a:hover, #sport a:hover {
+	background-color: #686868;
+}
+
+#gezin a {
+	background: url(./swag4.png) no-repeat 0 100%;
+}
+
+#eco a {
+	background: url(./swag2.png) no-repeat 0 100%;
+}
+
+#premium a {
+	background: url(./swag1.png) no-repeat 0 100%;
+}
+
+#sport a {
+	background: url(./swag3.png) no-repeat 0 100%;
+}
+
+/* einde homeknoppen */
+
+/* Content */
+.content {
+	background-color: white;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 180px;
+	padding-left: 0px;
+	position: relative;
+  top: -16px;
+}
+
+.content p {
+	margin: 0px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 180px;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: lighter;
+	font-size: 19px;
+	background-color: white;
+}
+
+/* einde content */
+
+/* Prijsknop */
+.prijsknop {
+	padding-top: -5px;
+	font-family: sans-serif;
+}
+
+#links a {
+	width: 49.6%;
+	height: 92.2vh;
+	float: left;
+	border-right: .5vw solid black;
+	text-align: center;
+	line-height: 85vh;
+	text-decoration: none;
+	color: black;
+	margin-top: -16px;
+	transition: background-color 0.5s ease;
+	background: url(./eurostapel.png) no-repeat 0 100%;
+	background-position: 51.1% 35%;
+	background-size: 100px 100px;
+}
+#links a:hover {
+	background-color: #A8A8A8;
+}
+
+#rechts a {
+	width: 49.9%;
+	height: 92.2vh;
+	display: block;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	line-height: 5000%;
+	margin-top: -16px;
+	transition: background-color 0.5s ease;
+	background: url(./geldzak.png) no-repeat 0 100%;
+	background-position: 51.1% 32%;
+	background-size: 100px 140px;
+}
+#rechts a:hover {
+	background-color: #A8A8A8;
+}
+/* einde prijsknop */
+
+/* onderdeel van de header */
+.nav ul {
+	list-style: none;
+	text-align: left;
+	background-color: #4C4B4B;
+	margin-bottom: 0px;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.nav ul li {
+	display: inline;
+	padding: 0px;
+	line-height: 70px;
+}
+/* einde onderdeel van de header */
+
+
+/* test voor de tables */
+.tableB table {
+	border-collapse: collapse;
+	border: 1px solid rgba(229,229,229,0.9);
+	margin-top: -16px;
+	background-color: white;
+}
+
+/*
+#td1, #td2, #td3, #td4, #td5, #td6, #td7, #td8, #td9, #td10, #td11, #td11, #td12 {
+	border-right: 1px solid white; padding: 0px;
+}
+*/
+
+.auto_td {
+	border-right: 1px solid white; padding: 0px;
+}
+
+
+a.sizeIMG:hover, a.sizeIMG:active {
+	size: 102%;
+}
+
+#auto {
+	text-align: center;
+	width: 24vw;
+	height: 38,5vh;
+	display: inline-block;
+	background-color: white;
+	float: left;
+}
+
+#auto a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: lighter;
+	font-size: 21px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#auto a:hover {
+	background-color: white;
+	transition: color 0.8s ease;
+	color: black;
+}
+
+/* einde van de test voor de tables */
+
+/* Sidebar */
+.sidebar {
+	position: absolute;
+	top: 59px;
+	bottom: 0;
+	left: 0;
+	width: 13%;
+}
+
+.sidebar a {
+	text-decoration: none;
+	margin-bottom: -4px;
+}
+
+.sidebar a p {
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+/* einde sidebar */
+
+.auto2 {
+  text-align: center;
+  background-color: rgba(229, 229, 229, 0.9);
+	padding-bottom: 10px;
+}
+
+.auto2 a {
+  text-decoration: none;
+  color: black;
+	font-size: 18px;
+}
+
+.tableB td, tr {
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.dropdown {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear 1s;
+}
+
+a:focus ~ .dropdown {
+  height: 1441.2px;
+}
