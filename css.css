@@ -1,0 +1,294 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+body {
+	background-color: rgba(229,229,229,0.9);
+	margin:0;
+	padding:0;
+}
+
+
+/*Header*/
+.logo {
+	height:45px;
+	margin-top: 10px;
+}
+.nav ul {
+	list-style:none;
+	text-align:left;
+	background-color: #686868;
+	margin-bottom:0px;
+	width:auto;
+	position: relative;
+    top: -16px;
+
+}
+.nav ul li {
+	display:inline;
+
+}
+.nav ul li a {
+	padding-top:23px;
+	padding-right:23px;
+	padding-bottom:23px;
+	text-decoration:none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:24px;
+	color: #000;
+	text-shadow: 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0), 0 0 0.0em rgba(0,0,0,0);
+	transition: color .9s ease-in-out;
+	transition: text-shadow .3s ease-in-out;
+
+}
+.nav ul li a:hover {
+	color:#33FFFF;
+	text-shadow: 0 0 0.0em #33CCFF, 0 0 0.0em rgba(0,0,0,0.0), 0 0 0.0em #33CCFF;
+}
+/*einde header*/
+
+
+/*homeknoppen*/
+#gezin a {
+	text-decoration: none;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight:light;
+	font-size:21px;
+	color: black;
+ 	line-height: 2000%;
+	text-align: center;
+	width: 25vw;
+	height: 40vh;
+	display: block;
+	float: left;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/swag4.png) no-repeat 0 100%;
+	background-size: 30%,30%;
+	background-position: 50% 30%;
+ 	background-color:rgba(229,229,229,0.9);
+}
+#gezin a:hover {
+	background-color:#686868;
+}
+
+#eco a {
+
+	font-family: 'Segoe UI', sans-serif;
+	font-weight:light;
+	font-size:21px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+ 	line-height:2000%;
+	width: 25vw;
+	height: 40vh;
+	display: block;
+	float: left;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/swag2.png) no-repeat 0 100%;
+	background-size: 30%,30%;
+	background-position: 50% 30%;
+ 	background-color:rgba(229,229,229,0.9);
+}
+
+#eco a:hover {
+	background-color:#686868;
+}
+
+#premium a {
+	text-align: center;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight:light;
+	font-size:21px;
+	text-decoration: none;
+ 	color: black;
+ 	line-height: 2000%;
+	width: 24vw;
+	height: 40vh;
+	display: block;
+	float: left;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/swag1.png) no-repeat 0 100%;
+	background-size: 30%,30%;
+	background-position: 50% 30%;
+ 	background-color:rgba(229,229,229,0.9);
+}
+
+#premium a:hover {
+	background-color:#686868;
+}
+
+#sport a {
+	text-align: center;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight:light;
+	font-size:21px;
+	text-decoration: none;
+	color: black;
+ 	line-height: 2000%;
+	width: 24.8vw;
+	height: 40vh;
+	display: block;
+	float: left;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/swag3.png) no-repeat 0 100%;
+	background-size: 30%,30%;
+	background-position: 50% 30%;
+ 	background-color:rgba(229,229,229,0.9);
+}
+
+#sport a:hover {
+	background-color:#686868;
+}
+/*einde homeknoppen*/
+
+/*Content*/
+.content {
+	background-color: white;
+	width:auto;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 0px;
+	padding-top:180px;
+	padding-left: 0px;
+	position: relative;
+  top: -16px;
+}
+
+.content p {
+	margin:0px;
+	margin-top:10px;
+	padding-top:10px;
+	padding-bottom: 180px;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight:light;
+	font-size:19px;
+	background-color: white;
+}
+
+/*einde content */
+
+/*Prijsknop*/
+.prijsknop {
+	padding-top: -5px;
+	font-family: sans-serif;
+}
+
+#links a {
+	width: 49.6%;
+	height: 92.2vh;
+	float: left;
+	border-right: .5vw solid black;
+	text-align: center;
+	line-height: 85vh;
+	text-decoration: none;
+	color: black;
+	margin-top: -16px;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/eurostapel.png) no-repeat 0 100%;
+	background-position: 51.1% 35%;
+	background-size: 100px 100px;
+}
+
+#links a:hover {
+	background-color: #A8A8A8;
+}
+
+#rechts a {
+	width: 49.9%;
+	height: 92.2vh;
+	display: block;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	line-height: 85vh;
+	margin-top: -16px;
+	transition: background-color 0.5s ease;
+	background: url(./Foto/geldzak.png) no-repeat 0 100%;
+	background-position: 51.1% 32%;
+	background-size: 100px 140px;
+}
+
+#rechts a:hover {
+	background-color: #A8A8A8;
+}
+/*Einde Prijsknop*/
+
+/*onderdeel vd header*/
+.nav ul {
+	list-style:none;
+	text-align:left;
+	background-color: #4C4B4B;
+	margin-bottom: 0px;
+	width:auto;
+	margin-left:opx;
+	margin-right:opx;
+
+}
+.nav ul li {
+	display:inline;
+	padding:0px;
+	line-height:70px;
+}
+/*einde onderdeel vd header*/
+
+
+.auto {
+	margin-top: -16px;
+}
+
+.auto2 {
+  text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: rgba(229,229,229,0.9);
+	transition: background-color 0.5s ease;
+}
+
+.auto2 a {
+  text-decoration: none;
+  color: black;
+	font-size: 18px;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.auto2:hover {
+	background-color: white;
+}
+
+.tableB td {
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border: 1px solid rgba(229,229,229,0.9);
+}
+
+.tableB table	{
+	border-collapse: collapse;
+}
+
+.tableB img {
+		box-shadow: 5px 5px 5px #999, -5px -5px 5px #999, -5px -2px 5px #999, 5px 2px 5px #999;
+}
+
+
+.dropdown {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear .0s;
+	background-color: white;
+
+}
+a:focus ~ .dropdown {
+  height: 1068.5;
+}
+
+.dropdown1 {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear .0s;
+	background-color: white;
+
+}
+a:focus ~ .dropdown1 {
+  height: 712;
+}
